@@ -15,4 +15,4 @@ class Employee extends React.Component {
 
 const element1 = <Employee></Employee>
 
-ReactDOM.render(element1, document.getElementById('root'));
+ReactDOM.createRoot(element1, document.getElementById('root'));
